@@ -1,10 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
+  pnpm: ^6.32.6
   vitepress: ^0.22.3
 
 dependencies:
   vitepress: 0.22.3
+
+devDependencies:
+  pnpm: 6.32.9
 
 packages:
 
@@ -528,6 +532,12 @@ packages:
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: false
+
+  /pnpm/6.32.9:
+    resolution: {integrity: sha512-fU/urJXv2Q8l4n8FW4Qx54KGDTVMpa3n7azqa7i65XZtG5Mcpa35D+HTmAL/7G3u/3R9WGPG4CdLU7631Ti6aA==}
+    engines: {node: '>=12.17'}
+    hasBin: true
+    dev: true
 
   /postcss/8.4.12:
     resolution: {integrity: sha512-lg6eITwYe9v6Hr5CncVbK70SoioNQIq81nsaG86ev5hAidQvmOeETBqs7jm43K2F5/Ley3ytDtriImV6TpNiSg==}
