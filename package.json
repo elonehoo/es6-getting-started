@@ -2,6 +2,7 @@
   "name": "es6",
   "version": "0.0.1",
   "description": "my study es6",
+  "packageManager": "pnpm@6.32.6",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev",
@@ -15,5 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "vitepress": "^0.22.3"
+  },
+  "devDependencies":{
+    "pnpm":"^6.32.6"
   }
 }
