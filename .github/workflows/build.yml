@@ -27,7 +27,7 @@ jobs:
         run: pnpm run build
 
       - name: echo cname
-        run: echo 'resume.elonehoo.xyz' > .vitepress/dist/CNAME
+        run: echo 'es6.elonehoo.xyz' > .vitepress/dist/CNAME
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
