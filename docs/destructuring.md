@@ -71,7 +71,7 @@ d // 4
 
 上面两个例子，都属于不完全解构，但是可以成功。
 
-如果等号的右边不是数组（或者严格地说，不是可遍历的结构，参见 [Iterator]() 一章），那么将会报错。
+如果等号的右边不是数组（或者严格地说，不是可遍历的结构，参见 Iterator），那么将会报错。
 
 ```javascript
 // 报错
@@ -108,7 +108,7 @@ let [first, second, third, fourth, fifth, sixth] = fibs();
 sixth // 5
 ```
 
-上面代码中，fibs是一个 Generator 函数（参见[Generator 函数]()一章），原生具有 Iterator 接口。解构赋值会依次从这个接口获取值。
+上面代码中，fibs是一个 Generator 函数（参见Generator 函数），原生具有 Iterator 接口。解构赋值会依次从这个接口获取值。
 
 ### 默认值
 
@@ -225,7 +225,7 @@ f // 'hello'
 l // 'world'
 ```
 
-这实际上说明，对象的解构赋值是下面形式的简写（参见[对象的扩展]()）。
+这实际上说明，对象的解构赋值是下面形式的简写（参见对象的扩展）。
 
 ```javascript
 let { foo: foo, bar: bar } = { foo: 'aaa', bar: 'bbb' };
