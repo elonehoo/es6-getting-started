@@ -25,6 +25,10 @@ export default defineConfig({
       {
         text: "let 和 const 命令",
         link: "docs/let"
+      },
+      {
+        text: "变量的解构赋值",
+        link: "docs/destructuring"
       }
     ]
   }
