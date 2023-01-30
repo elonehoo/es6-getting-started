@@ -2,7 +2,7 @@
   "name": "es6",
   "version": "0.0.1",
   "description": "my study es6",
-  "packageManager": "pnpm@6.32.6",
+  "packageManager": "pnpm@6.35.1",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev",
@@ -15,9 +15,9 @@
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "dependencies": {
-    "vitepress": "^0.22.3"
+    "vitepress": "^0.22.4"
   },
   "devDependencies":{
-    "pnpm":"^6.32.6"
+    "pnpm":"^6.35.1"
   }
 }
